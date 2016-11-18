@@ -4,6 +4,9 @@
           "us-east-1": {
               "AMI": "ami-6869aa05"
           },
+          "us-east-2": {
+              "AMI": "ami-58277d3d"
+          },
           "us-west-2": {
                 "AMI": "ami-7172b611"
             },
