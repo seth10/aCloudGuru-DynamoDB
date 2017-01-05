@@ -78,7 +78,7 @@
           "yum update -y aws-cfn-bootstrap\n",
           "yum install -y gcc\n",
           "pip install boto3\n",
-          "pip install fake-factory\n",
+          "pip install Faker\n",
           "pip install tqdm\n",
           "pip install multiprocessing\n",
 
