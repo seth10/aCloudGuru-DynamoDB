@@ -16,7 +16,7 @@ db_r = loadmin_session.resource('dynamodb')
 ##          configured AWS tools
 ##          installed python2.7+
 ##          installed boto3 (pip install boto3)
-##          Installed fake-factory module
+##          Installed faker module
 ##          Installed tqdm module
 ##          'loadmin' AWS configuration profile - with admin rights
 ##          Data Model v2 loaded.
