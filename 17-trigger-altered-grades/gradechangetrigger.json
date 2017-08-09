@@ -63,7 +63,8 @@
                   {
                       "Effect": "Allow",
                       "Action": [
-                        "dynamodb:*"
+                        "dynamodb:*",
+                        "kinesis:*"
                       ],
                       "Resource": ["*"]
                   }
@@ -122,6 +123,10 @@
       }
     },
     "LambdaEventSource" : {
+      "DependsOn": [
+        "IAMRole",
+        "IAMPolicy"
+      ],
       "Type": "AWS::Lambda::EventSourceMapping",
       "Properties": {
         "EventSourceArn" : {"Ref" : "EXAMStreamARN"},
