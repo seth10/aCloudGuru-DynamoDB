@@ -2,8 +2,8 @@ ITEM SYNTAX
 
 {
     "AttributeName": {"TYPE": "AttributeValue"},
-    "AttributeName": {"TYPE": [LIST},
-    "AttributeName": {"TYPE": {"map" : "key"}
+    "AttributeName": {"TYPE": [LIST]},
+    "AttributeName": {"TYPE": {"map" : "key"}}
 }
 
 POPULATED
